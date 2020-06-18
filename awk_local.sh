@@ -8,4 +8,3 @@ TOTALMEM3= free -m | awk "NR== 2{print \$2}"
 echo 3 $TOTALMEM3;
 TOTALMEM4=$(free -m | awk NR\==\ 2\{print\ \$2\})
 echo 4 $TOTALMEM4
-
