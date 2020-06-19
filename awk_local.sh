@@ -1,3 +1,4 @@
+#!/Bin/bash
 TOTALMEM=$(free -m | grep Mem: | cut -d " " -f 7-15 | sed "s/' '//g");
 echo 1 $TOTALMEM
 

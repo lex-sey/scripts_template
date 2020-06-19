@@ -1,3 +1,4 @@
+#!/Bin/bash
 export IPSTANDBY=192.168.1.54
 
 ssh root@$IPSTANDBY '
