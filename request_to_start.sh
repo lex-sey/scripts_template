@@ -12,3 +12,6 @@ read -n 1 -p " Начать выполнение скрипта? (y/[a]): " AMSURE
 [ "$AMSURE" = "y" ] || exit
 echo "" 1>&2
 echo ""
+
+
+read -n 1 -p " Начать выполнение скрипта? (y/[a]): " AMSURE [ "$AMSURE" = "y" ] || (echo 'Выход '; exit)
